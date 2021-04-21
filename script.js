@@ -1,6 +1,4 @@
 
-var delay = 5; 
-setTimeout("loadExtraFiles();", delay * 1000);
 function decimalToBinary(number){
     let remainder;
     let binary = 0;
@@ -40,7 +38,7 @@ function decimalToHex(number) {
         remainder = number % 16;
         number = parseInt(number / 16);
         if(remainder < 10){
-            hex += str(remainder);
+            hex += remainder.toString();
         }
         else{
             hex += hexcodes[remainder];
