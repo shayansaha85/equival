@@ -1,5 +1,6 @@
 
-
+var delay = 5; 
+setTimeout("loadExtraFiles();", delay * 1000);
 function decimalToBinary(number){
     let remainder;
     let binary = 0;
