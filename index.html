@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equival</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  
+    <div class="container">
+        <div class="container">
+            <h1 id="heading1">Equival</h1>
+            <p id="heading2">Convert Decimal To <strong>Binary/Octal/Hexadecimal/Roman</strong></p>
+        </div>
+        <br>
+        <br>
+        <div id="myform" class="jumbotron">
+          <form onsubmit="return false">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Decimal</label>
+              <input type="text" class="form-control" id="decimal_value" placeholder="Enter the decimal value" required>
+            </div>
+
+            <div align="center">
+            <button onclick="display()" type="submit" class="btn btn-primary btn-lg">Convert</button>
+            </div>
+            <br>
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Binary</label>
+              <input type="text" class="form-control" id="binary_value" placeholder="Binary Equivalent" readonly>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Octal</label>
+              <input type="text" class="form-control" id="octal_value" placeholder="Octal Equivalent" readonly>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Hex</label>
+              <input type="text" class="form-control" id="hex_value" placeholder="Hexadecimal Equivalent" readonly>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Roman</label>
+              <input type="text" class="form-control" id="roman_value" placeholder="Roman Equivalent" readonly>
+            </div>
+          </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

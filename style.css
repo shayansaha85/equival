@@ -1,0 +1,19 @@
+
+#heading1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+#myform {
+    align-items: center;
+}
+
+body {
+    background-image: url(assets/body_wallpaper.png);
+}
+
+#heading2 {
+    text-align: center;
+    color: white;
+}
