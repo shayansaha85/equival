@@ -2,7 +2,7 @@
 #heading1 {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 #myform {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(assets/body_wallpaper.png);
+    background-image: url(assets/blur_bg.png);
 }
 
 #heading2 {
